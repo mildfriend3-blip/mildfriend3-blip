@@ -2,8 +2,6 @@ name: 🟢 All-Green Main Profile & Graph Fix
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 14 * * *"
 
 permissions:
   contents: write
@@ -17,9 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Update Main Profile README & Generate 365 Days of Green Commits
+      - name: Force Refresh README and Generate 365 Days of Green Commits
         run: |
-          # Configured with your exact account email mildfriend3@gmail.com
           git config user.name "mildfriend3-blip"
           git config user.email "mildfriend3@gmail.com"
 
@@ -186,6 +183,10 @@ jobs:
           </div>
 
           <div align="center">
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=mildfriend3-blip&bg_color=0d1117&color=00FF41&line=2ea043&point=00FF41&area=true&hide_border=false&border_color=2ea043" width="98%" alt="Green Activity Graph" />
+          </div>
+
+          <div align="center">
             <img src="https://raw.githubusercontent.com/mildfriend3-blip/mildfriend3-blip/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
           </div>
 
@@ -227,21 +228,17 @@ jobs:
           EOF
 
           git add README.md
-          git commit -m "feat: update README with mildfriend3@gmail.com" || true
+          git commit -m "feat: refresh README with active graph link" || true
 
-          if [ ! -f .green_v3_done ]; then
-            for day in $(seq 365 -1 0); do
-              COMMIT_DATE=$(date -u -d "$day days ago 12:00:00" +"%Y-%m-%dT%H:%M:%SZ")
-              COUNT=$(( ( RANDOM % 5 ) + 3 ))
-              for c in $(seq 1$COUNT); do
-                GIT_AUTHOR_DATE="$COMMIT_DATE" GIT_COMMITTER_DATE="$COMMIT_DATE" \
-                  git commit --allow-empty -m "chore: activity sync" --quiet
-              done
+          # Force-run a fresh 365-day backfill tied directly to mildfriend3@gmail.com
+          for day in $(seq 365 -1 0); do
+            COMMIT_DATE=$(date -u -d "$day days ago 12:00:00" +"%Y-%m-%dT%H:%M:%SZ")
+            COUNT=$(( ( RANDOM % 5 ) + 3 ))
+            for c in $(seq 1$COUNT); do
+              GIT_AUTHOR_DATE="$COMMIT_DATE" GIT_COMMITTER_DATE="$COMMIT_DATE" \
+                git commit --allow-empty -m "chore: full green sync" --quiet
             done
-            touch .green_v3_done
-            git add .green_v3_done
-            git commit -m "chore: complete green graph with correct email" --quiet
-          fi
+          done
 
           git push origin HEAD:main --force
 
