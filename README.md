@@ -2,22 +2,22 @@
 
 <!-- 🟢 MATRIX GREEN ASCII BANNER -->
 ```text
-██╗      ██████╗ ██╗  ██╗███████╗███████╗██╗  ██╗    ██████╗ ██╗  ██╗ █████╗ ██╗   ██╗███████╗ █████╗ ██████╗ 
-██║     ██╔═══██╗██║ ██╔╝██╔════╝██╔════╝██║  ██║    ██╔══██╗██║  ██║██╔══██╗██║   ██║██╔════╝██╔══██╗██╔══██╗
-██║     ██║   ██║█████╔╝ █████╗  ███████╗███████║    ██████╔╝███████║███████║██║   ██║███████╗███████║██████╔╝
-██║     ██║   ██║██╔═██╗ ██╔══╝  ╚════██║██╔══██║    ██╔══██╗██╔══██║██╔══██║╚██╗ ██╔╝╚════██║██╔══██║██╔══██╗
-███████╗╚██████╔╝██║  ██╗███████╗███████║██║  ██║    ██████╔╝██║  ██║██║  ██║ ╚████╔╝ ███████║██║  ██║██║  ██║
-╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
+███╗   ███╗██╗██╗     ██████╗ ███████╗██████╗ ██╗███████╗███╗   ██╗██████╗ 
+████╗ ████║██║██║     ██╔══██╗██╔════╝██╔══██╗██║██╔════╝████╗  ██║██╔══██╗
+██╔████╔██║██║██║     ██║  ██║█████╗  ██████╔╝██║█████╗  ██╔██╗ ██║██║  ██║
+██║╚██╔╝██║██║██║     ██║  ██║██╔══╝  ██╔══██╗██║██╔══╝  ██║╚██╗██║██║  ██║
+██║ ╚═╝ ██║██║███████╗██████╔╝██║     ██║  ██║██║███████╗██║ ╚████║██████╔╝
+╚═╝     ╚═╝╚═╝╚══════╝╚═════╝ ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═══╝╚═════╝ 
 ```
 
 <!-- ⚡ ANIMATED GREEN TYPING SVG -->
-<a href="https://github.com/mildfriend3-blip">
+<a href="https://github.com/mildfriend">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=750&lines=Cybersecurity+Researcher+%26+Bug+Hunter+%F0%9F%9B%A1%EF%B8%8F;Full-Stack+%26+AI+Developer+%E2%9A%A1;B.Tech+CSE+(Cyber+Security)+%40+CUJ+'30+%F0%9F%8E%93;Building+Secure%2C+Scalable+Systems+for+People+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mildfriend3-blip&label=PROFILE+VIEWS&color=2ea043&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/mildfriend3-blip?label=FOLLOWERS&color=00FF41&labelColor=0d1117&style=for-the-badge" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=mildfriend&label=PROFILE+VIEWS&color=2ea043&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/mildfriend?label=FOLLOWERS&color=00FF41&labelColor=0d1117&style=for-the-badge" alt="Followers" />
   <img src="https://img.shields.io/badge/STATUS-BUILDING_%26_HUNTING-00FF41?style=for-the-badge&labelColor=0d1117" alt="Status" />
 </p>
 
@@ -28,9 +28,9 @@
 ### `whoami`
 
 ```javascript
-const lokesh = {
+const mildfriend = {
   name: "Lokesh Nilesh Bhavsar",
-  alias: "mildfriend3-blip",
+  alias: "mildfriend",
   role: "Cybersecurity Researcher · Full-Stack & AI Developer",
   university: "Central University of Jammu, B.Tech CSE (Cyber Security) '30",
   location: "Jammu & Kashmir, India 🇮🇳",
@@ -108,7 +108,7 @@ End-to-end biometric verification and civic healthcare platform engineered for t
 Full-stack web platform for real-time academic tracking, exam readiness analytics, and automated release pipelines.
 - 🔄 **Automated CI/CD:** GitHub Actions workflows for build verification and release automation
 - ⚡ **Responsive UI:** Built with modern React and deployed on Vercel for instant edge delivery
-- 📦 **Active Repo:** [`mildfriend3-blip/Exampulse`](https://github.com/mildfriend3-blip/Exampulse)
+- 📦 **Active Repo:** [`mildfriend/Exampulse`](https://github.com/mildfriend/Exampulse)
 </details>
 
 ---
@@ -153,21 +153,21 @@ Full-stack web platform for real-time academic tracking, exam readiness analytic
 ### 📊 GitHub Stats (All-Green Edition)
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mildfriend3-blip&show_icons=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&icon_color=2ea043&border_color=2ea043&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mildfriend3-blip&layout=compact&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=2ea043" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mildfriend&show_icons=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&icon_color=2ea043&border_color=2ea043&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mildfriend&layout=compact&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9&border_color=2ea043" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=mildfriend3-blip&background=0D1117&border=2EA043&stroke=2EA043&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=2EA043&sideLabels=2EA043&dates=c9d1d9" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=mildfriend&background=0D1117&border=2EA043&stroke=2EA043&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=2EA043&sideLabels=2EA043&dates=c9d1d9" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mildfriend3-blip&bg_color=0d1117&color=00FF41&line=2ea043&point=00FF41&area=true&hide_border=false&border_color=2ea043" width="98%" alt="Green Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mildfriend&bg_color=0d1117&color=00FF41&line=2ea043&point=00FF41&area=true&hide_border=false&border_color=2ea043" width="98%" alt="Green Activity Graph" />
 </div>
 
 <!-- 🐍 INTERACTIVE GREEN CONTRIBUTION SNAKE -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mildfriend3-blip/mildfriend3-blip/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/mildfriend/mildfriend/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -197,8 +197,8 @@ Full-stack web platform for real-time academic tracking, exam readiness analytic
   <a href="https://linkedin.com">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-2ea043?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0d1117" />
   </a>
-  <a href="https://github.com/mildfriend3-blip">
-    <img src="https://img.shields.io/badge/GitHub-mildfriend3--blip-10B981?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117" />
+  <a href="https://github.com/mildfriend">
+    <img src="https://img.shields.io/badge/GitHub-mildfriend-10B981?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117" />
   </a>
 </p>
 
