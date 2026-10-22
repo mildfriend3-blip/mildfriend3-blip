@@ -123,7 +123,7 @@ def build_project_cards(repos):
     cards_md.append('</table>')
     return "\n".join(cards_md)
 
-def build_live_languages(repos):
+def calculate_language_percentages(repos):
     totals = {}
     valid_repos = [
         r for r in repos
@@ -151,17 +151,41 @@ def build_live_languages(repos):
 
     total_score = sum(totals.values())
     if total_score == 0:
-        return '<p align="center"><img src="https://img.shields.io/badge/Python-100%25-00FF41?style=for-the-badge&logo=python&logoColor=00FF41&labelColor=0d1117" /></p>'
+        return {"Python": 100.0}
 
-    sorted_langs = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:6]
-    badges = []
+    sorted_langs = sorted(totals.items(), key=lambda x: x[1], reverse=True)
+    percentages = {}
     for lang, score in sorted_langs:
-        pct = round((score / total_score) * 100, 1)
+        percentages[lang] = round((score / total_score) * 100, 1)
+    return percentages
+
+def build_live_languages(percentages):
+    badges = []
+    for lang, pct in list(percentages.items())[:6]:
         safe_lang = urllib.parse.quote(lang)
         badges.append(
             f'<img src="https://img.shields.io/badge/{safe_lang}-{pct}%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />'
         )
     return '<p align="center">\n  ' + '\n  '.join(badges) + '\n</p>'
+
+def build_unified_card(percentages):
+    """Generates a clean text/progress breakdown list to replace the conflicting third-party card."""
+    lines = ['<div align="center">', '  <table width="100%">', '    <tr>']
+    items = list(percentages.items())[:6]
+    
+    # Split into 2 columns for a clean look
+    mid = (len(items) + 1) // 2
+    for col_items in [items[:mid], items[mid:]]:
+        lines.append('      <td width="50%" valign="top">')
+        for lang, pct in col_items:
+            bar_blocks = int(pct / 10)
+            bar = "🟩" * bar_blocks + "⬛" * (10 - bar_blocks)
+            lines.append(f'        <b>{lang}</b> ({pct}%)<br>{bar}<br><br>')
+        lines.append('      </td>')
+    lines.append('    </tr>')
+    lines.append('  </table>')
+    lines.append('</div>')
+    return "\n".join(lines)
 
 def replace_section(content, marker_name, new_block):
     pattern = rf"(<!-- {marker_name}_START -->).*?(<!-- {marker_name}_END -->)"
@@ -171,13 +195,16 @@ def replace_section(content, marker_name, new_block):
 def main():
     repos = github_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=updated")
     projects_md = build_project_cards(repos)
-    langs_md = build_live_languages(repos)
+    percentages = calculate_language_percentages(repos)
+    langs_md = build_live_languages(percentages)
+    unified_card_md = build_unified_card(percentages)
 
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
     readme = replace_section(readme, "LIVE_PROJECTS", projects_md)
     readme = replace_section(readme, "LIVE_LANGS", langs_md)
+    readme = replace_section(readme, "UNIFIED_LANG_CARD", unified_card_md)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme)
