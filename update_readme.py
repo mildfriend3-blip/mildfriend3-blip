@@ -11,7 +11,6 @@ HEADERS = {"Accept": "application/vnd.github.v3+json", "User-Agent": USERNAME}
 if TOKEN:
     HEADERS["Authorization"] = f"token {TOKEN}"
 
-# Map repo languages & topics to clean green Shields.io badges
 TECH_BADGES = {
     "python": "![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41)",
     "typescript": "![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41)",
@@ -38,26 +37,19 @@ def github_get(url):
         return json.loads(resp.read().decode("utf-8"))
 
 def score_repo(repo):
-    """Scores a repository so the most interesting & recently updated projects rank at the top."""
     score = 0
-    # Boost for having a Live Demo / Homepage URL
     if repo.get("homepage") and repo["homepage"].strip():
-        score += 40
-    # Boost for having a detailed description
+        score += 50
     if repo.get("description") and len(repo["description"].strip()) > 10:
-        score += 25
-    # Boost for stars and forks
+        score += 30
     score += repo.get("stargazers_count", 0) * 20
-    score += repo.get("forks_count", 0) * 10
-    # Boost for topic tags
-    score += len(repo.get("topics", [])) * 8
-    # Boost for recency (projects pushed recently rise to the top)
+    score += len(repo.get("topics", [])) * 10
+    
     pushed_at = repo.get("pushed_at")
     if pushed_at:
         pushed_dt = datetime.fromisoformat(pushed_at.replace("Z", "+00:00"))
         days_old = (datetime.now(timezone.utc) - pushed_dt).days
-        recency_boost = max(0, 60 - days_old)
-        score += recency_boost
+        score += max(0, 100 - days_old)
     return score
 
 def get_repo_languages(repo_name):
@@ -68,7 +60,6 @@ def get_repo_languages(repo_name):
 
 def build_project_cards(repos):
     cards_md = []
-    # Filter out the profile README repo itself and helper log repos
     filtered = [
         r for r in repos
         if r["name"].lower() not in {USERNAME.lower(), "green-activity-log", "mildfriend", "kashishmalik"}
@@ -77,7 +68,7 @@ def build_project_cards(repos):
     ranked = sorted(filtered, key=score_repo, reverse=True)[:6]
 
     if not ranked:
-        return "_No public projects found yet. Upload a repository to see it live here!_"
+        return "_No public projects found yet._"
 
     cards_md.append('<table>')
     for i in range(0, len(ranked), 2):
@@ -85,13 +76,12 @@ def build_project_cards(repos):
         for repo in ranked[i:i+2]:
             name = repo["name"]
             html_url = repo["html_url"]
-            desc = repo.get("description") or "Active full-stack & security repository with automated workflows and live commit tracking."
+            desc = repo.get("description") or "Active repository with live commit tracking and automated CI/CD pipelines."
             homepage = (repo.get("homepage") or "").strip()
             topics = [t.lower() for t in repo.get("topics", [])]
             langs_dict = get_repo_languages(name)
             repo_langs = [l.lower() for l in langs_dict.keys()]
 
-            # Collect tech badges from repo languages + topics
             badges = []
             seen = set()
             for key in repo_langs + topics:
@@ -103,20 +93,18 @@ def build_project_cards(repos):
 
             badges_str = " ".join(badges[:5])
 
-            # Live Commit & Activity Shields
             live_stats = (
-                f'<img src="https://img.shields.io/github/last-commit/{USERNAME}/{name}?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> '
-                f'<img src="https://img.shields.io/github/commit-activity/m/{USERNAME}/{name}?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> '
-                f'<img src="https://img.shields.io/github/stars/{USERNAME}/{name}?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" />'
+                f'<img src="https://img.shields.io/github/last-commit/{USERNAME}/{name}?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> '
+                f'<img src="https://img.shields.io/github/commit-activity/m/{USERNAME}/{name}?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> '
+                f'<img src="https://img.shields.io/github/stars/{USERNAME}/{name}?style=flat-square&color=10B981&labelColor=0d1117" />'
             )
 
-            # Action Buttons (Live Demo + Source Code)
-            buttons = f'<a href="{html_url}"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a>'
+            buttons = f'<a href="{html_url}"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a>'
             if homepage:
                 if not homepage.startswith("http"):
                     homepage = "https://" + homepage
                 buttons = (
-                    f'<a href="{homepage}"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" alt="Live Demo" /></a> '
+                    f'<a href="{homepage}"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> '
                     + buttons
                 )
 
@@ -136,28 +124,44 @@ def build_project_cards(repos):
     return "\n".join(cards_md)
 
 def build_live_languages(repos):
-    """Calculates real-time language usage across all repositories directly from GitHub API."""
     totals = {}
-    for repo in repos:
-        if repo["name"].lower() in {USERNAME.lower(), "green-activity-log"}:
-            continue
-        langs = get_repo_languages(repo["name"])
-        for lang, bytes_count in langs.items():
-            totals[lang] = totals.get(lang, 0) + bytes_count
+    valid_repos = [
+        r for r in repos
+        if r["name"].lower() not in {USERNAME.lower(), "green-activity-log", "mildfriend"}
+        and not r.get("archived", False)
+    ]
 
-    total_bytes = sum(totals.values())
-    if total_bytes == 0:
-        return "![Python](https://img.shields.io/badge/Python-100%25-00FF41?style=for-the-badge&logo=python&logoColor=00FF41&labelColor=0d1117)"
+    for index, repo in enumerate(valid_repos):
+        langs = get_repo_languages(repo["name"])
+        if not langs:
+            continue
+        repo_total_bytes = sum(langs.values())
+        if repo_total_bytes == 0:
+            continue
+
+        recency_multiplier = 3.5 if index < 3 else 1.0
+
+        for lang, bytes_count in langs.items():
+            if lang == "Jupyter Notebook":
+                lang = "Python"
+            if lang in {"HTML", "CSS"}:
+                continue
+            repo_share = (bytes_count / repo_total_bytes) * 100.0 * recency_multiplier
+            totals[lang] = totals.get(lang, 0.0) + repo_share
+
+    total_score = sum(totals.values())
+    if total_score == 0:
+        return '<p align="center"><img src="https://img.shields.io/badge/Python-100%25-00FF41?style=for-the-badge&logo=python&logoColor=00FF41&labelColor=0d1117" /></p>'
 
     sorted_langs = sorted(totals.items(), key=lambda x: x[1], reverse=True)[:6]
     badges = []
-    for lang, count in sorted_langs:
-        pct = round((count / total_bytes) * 100, 1)
+    for lang, score in sorted_langs:
+        pct = round((score / total_score) * 100, 1)
         safe_lang = urllib.parse.quote(lang)
         badges.append(
-            f'<img src="https://img.shields.io/badge/{safe_lang}-{pct}%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="{lang}" />'
+            f'<img src="https://img.shields.io/badge/{safe_lang}-{pct}%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />'
         )
-    return "<p align=\"center\">\n  " + "\n  ".join(badges) + "\n</p>"
+    return '<p align="center">\n  ' + '\n  '.join(badges) + '\n</p>'
 
 def replace_section(content, marker_name, new_block):
     pattern = rf"(<!-- {marker_name}_START -->).*?(<!-- {marker_name}_END -->)"
