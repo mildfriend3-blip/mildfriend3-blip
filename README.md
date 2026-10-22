@@ -48,39 +48,50 @@ const mildfriend = {
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/mildfriend3-blip/exampulse-antigravity">ExamPulse Antigravity</a></h3>
-      <p>Automated academic & assessment platform with real-time readiness analytics, PostgreSQL persistence, and CI/CD release pipelines.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41" />
-        <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=00FF41" />
-        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=00FF41" />
-        <img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=00FF41" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/github/last-commit/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" />
-        <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" />
-      </p>
-      <p>
-        <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a>
-        <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a>
-      </p>
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/aegis">aegis</a></h3>
+      <p>Evaluation-and-defense framework for prompt-injection attacks on tool-using LLM agents. Measures attack success rate and legitimate utility across four defense layers.</p>
+      <p>![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/aegis?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/aegis?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/aegis?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" /></p>
+      <p><a href="https://github.com/mildfriend3-blip/aegis"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/mildfriend3-blip/Navjeevan-">Navjeevan Plus Biometrics</a></h3>
-      <p>End-to-end biometric identity verification and civic emergency response platform built for tamper-resistant authentication.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41" />
-        <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41" />
-        <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=00FF41" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/github/last-commit/mildfriend3-blip/Navjeevan-?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" />
-        <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/Navjeevan-?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" />
-      </p>
-      <p>
-        <a href="https://github.com/mildfriend3-blip/Navjeevan-"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a>
-        <a href="https://github.com/mildfriend3-blip/Navjeevan-"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a>
-      </p>
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/cu-jammu-attendance">cu-jammu-attendance</a></h3>
+      <p>Unofficial timetable + attendance tracker for B.Tech Cyber Security (Semester I), Dept. of CSE & CSIT, Cluster University of Jammu. React + TypeScript + Vite.</p>
+      <p>![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41) ![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41) ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" /></p>
+      <p><a href="https://cu-jammu-attendance.vercel.app"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" alt="Live Demo" /></a> <a href="https://github.com/mildfriend3-blip/cu-jammu-attendance"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/exampulse-antigravity">exampulse-antigravity</a></h3>
+      <p>Active full-stack & security repository with automated workflows and live commit tracking.</p>
+      <p>![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41) ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41) ![Kotlin](https://img.shields.io/badge/Kotlin-0d1117?style=flat-square&logo=kotlin&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" /></p>
+      <p><a href="https://exampulseantigravity.vercel.app"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" alt="Live Demo" /></a> <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/central-university-of-jammu-">central-university-of-jammu-</a></h3>
+      <p>Active full-stack & security repository with automated workflows and live commit tracking.</p>
+      <p>![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41) ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/central-university-of-jammu-?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/central-university-of-jammu-?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/central-university-of-jammu-?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" /></p>
+      <p><a href="https://central-university-of-jammu.vercel.app"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" alt="Live Demo" /></a> <a href="https://github.com/mildfriend3-blip/central-university-of-jammu-"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/Portfolio">Portfolio</a></h3>
+      <p>Active full-stack & security repository with automated workflows and live commit tracking.</p>
+      <p>![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41) ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/Portfolio?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/Portfolio?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/Portfolio?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" /></p>
+      <p><a href="https://portfolio-virid-nine-ece5f9i3y6.vercel.app"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" alt="Live Demo" /></a> <a href="https://github.com/mildfriend3-blip/Portfolio"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/Navjeevan-">Navjeevan-</a></h3>
+      <p>Jh</p>
+      <p>![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41) ![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41) ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/Navjeevan-?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" alt="Last Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/Navjeevan-?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" alt="Commit Activity" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/Navjeevan-?style=flat-square&color=10B981&labelColor=0d1117" alt="Stars" /></p>
+      <p><a href="https://navjeevan-eight.vercel.app"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" alt="Live Demo" /></a> <a href="https://github.com/mildfriend3-blip/Navjeevan-"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" alt="Source Code" /></a></p>
     </td>
   </tr>
 </table>
@@ -129,10 +140,12 @@ const mildfriend = {
 
 <!-- LIVE_LANGS_START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-36.6%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/HTML-23.2%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/Kotlin-21.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/JavaScript-20.3%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/TypeScript-38.3%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Kotlin-18.7%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/HTML-18.5%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="HTML" />
+  <img src="https://img.shields.io/badge/JavaScript-17.5%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS-3.0%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="CSS" />
+  <img src="https://img.shields.io/badge/Python-2.8%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" alt="Python" />
 </p>
 <!-- LIVE_LANGS_END -->
 
