@@ -1,0 +1,36 @@
+name: ⚡ Live README Project & Language Auto-Updater
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 * * * *" # Scans your GitHub every hour for new project uploads & commits
+
+permissions:
+  contents: write
+
+jobs:
+  sync-live-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Profile Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch Live Projects, Commits & Languages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python update_readme.py
+
+      - name: Commit Updated Live README
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "mildfriend3@gmail.com"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "chore: live sync projects, commits & languages" && git push)
