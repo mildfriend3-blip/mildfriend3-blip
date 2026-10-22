@@ -5,7 +5,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: "0 * * * *" # Scans your GitHub every hour for new project uploads & commits
+    - cron: "*/5 * * * *" # Automatically scans and updates your README every 5 minutes
 
 permissions:
   contents: write
