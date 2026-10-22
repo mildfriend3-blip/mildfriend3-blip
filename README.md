@@ -87,11 +87,11 @@ const mildfriend = {
       <p><a href="https://portfolio-virid-nine-ece5f9i3y6.vercel.app"><img src="https://img.shields.io/badge/🟢_LIVE_DEMO-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/Portfolio"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚀 <a href="https://github.com/mildfriend3-blip/LokeshBhavsar">LokeshBhavsar</a></h3>
-      <p>...</p>
-      <p>![Kotlin](https://img.shields.io/badge/Kotlin-0d1117?style=flat-square&logo=kotlin&logoColor=00FF41) ![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41) ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41) ![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41)</p>
-      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/LokeshBhavsar?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/LokeshBhavsar?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/LokeshBhavsar?style=flat-square&color=10B981&labelColor=0d1117" /></p>
-      <p><a href="https://github.com/mildfriend3-blip/LokeshBhavsar"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
+      <h3>🚀 <a href="https://github.com/mildfriend3-blip/ai-govdocs-agent">ai-govdocs-agent</a></h3>
+      <p>Human-in-the-loop AI agent that prepares Indian government-document applications (PAN, Voter ID, Driving Licence) and hands OTP/DigiLocker auth back to the applicant.</p>
+      <p>![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41)</p>
+      <p><img src="https://img.shields.io/github/last-commit/mildfriend3-blip/ai-govdocs-agent?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/ai-govdocs-agent?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img src="https://img.shields.io/github/stars/mildfriend3-blip/ai-govdocs-agent?style=flat-square&color=10B981&labelColor=0d1117" /></p>
+      <p><a href="https://github.com/mildfriend3-blip/ai-govdocs-agent"><img src="https://img.shields.io/badge/💻_Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
   </tr>
 </table>
@@ -135,11 +135,12 @@ const mildfriend = {
 
 <!-- LIVE_LANGS_START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-58.7%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/TypeScript-29.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/Kotlin-7.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/JavaScript-4.7%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img src="https://img.shields.io/badge/Makefile-0.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/Python-60.5%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/TypeScript-27.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/Kotlin-6.6%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/JavaScript-4.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/PowerShell-0.9%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img src="https://img.shields.io/badge/Dockerfile-0.3%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
 </p>
 <!-- LIVE_LANGS_END -->
 
