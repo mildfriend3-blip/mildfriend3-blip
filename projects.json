@@ -1,0 +1,9 @@
+{
+  "_comment": "Controls the live showcase in the profile README. Read by update_readme.py on every run.",
+  "max_cards": 6,
+  "stale_days": 180,
+  "min_size_kb": 100,
+  "min_description": 25,
+  "hide": [],
+  "pin": []
+}

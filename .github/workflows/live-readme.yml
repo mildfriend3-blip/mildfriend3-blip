@@ -1,20 +1,33 @@
-name: ⚡ Live README Project & Language Auto-Updater
+name: Live README showcase
+
+# Rebuilds the project showcase in README.md: ranked by recent commits, with
+# repositories that have no description or no recent activity hidden.
+#
+# Runs once a day, on demand, and after a push to main. It was every five
+# minutes before, which burned Actions minutes for a list that changes daily
+# at most.
 
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
   schedule:
-    - cron: "*/5 * * * *" # Automatically scans and updates your README every 5 minutes
+    - cron: "17 3 * * *" # 03:17 UTC daily
 
 permissions:
   contents: write
 
+concurrency:
+  group: live-readme
+  cancel-in-progress: true
+
 jobs:
-  sync-live-readme:
+  sync:
+    # The commit below carries [skip ci], so this does not loop on its own push.
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Profile Repo
+      - name: Checkout profile repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -22,15 +35,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fetch Live Projects, Commits & Languages
+      - name: Rank projects and rebuild README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: python update_readme.py
 
-      - name: Commit Updated Live README
+      - name: Commit if anything changed
         run: |
-          git config user.name "${{ github.repository_owner }}"
-          git config user.email "mildfriend3@gmail.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || (git commit -m "chore: live sync projects, commits & languages" && git push)
+          if git diff --staged --quiet; then
+            echo "README already up to date"
+            exit 0
+          fi
+          git commit -m "chore(readme): rebuild the project showcase [skip ci]"
+          git push
