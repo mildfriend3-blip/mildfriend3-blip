@@ -19,7 +19,7 @@ The projects showcase is a ranked, filtered list, not a dump of every repo:
 Overrides live in projects.json:
 
     {"hide": ["repo-a"], "pin": ["repo-b"], "max_cards": 6,
-     "stale_days": 180, "min_size_kb": 100, "min_description": 25}
+     "stale_days": 180, "min_size_kb": 20, "min_description": 25}
 
 `pin` shows a repo first and skips the worthiness test; `hide` removes it
 permanently. Both are by repository name, case-insensitive.
@@ -50,7 +50,7 @@ DEFAULTS = {
     "pin": [],
     "max_cards": 6,
     "stale_days": 180,
-    "min_size_kb": 100,
+    "min_size_kb": 20,
     "min_description": 25,
 }
 

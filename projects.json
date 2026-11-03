@@ -1,8 +1,8 @@
 {
-  "_comment": "Controls the live showcase in the profile README. Read by update_readme.py on every run.",
+  "_comment": "Controls the live showcase in the profile README. Read by update_readme.py on every run. hide: always excluded. pin: shown first and skips the worthiness test.",
   "max_cards": 6,
   "stale_days": 180,
-  "min_size_kb": 100,
+  "min_size_kb": 20,
   "min_description": 25,
   "hide": [],
   "pin": []
