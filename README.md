@@ -94,7 +94,7 @@ const mildfriend = {
   </tr>
 </table>
 
-<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 03 Nov 2026, 20:57 UTC.</sub>
+<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 05 Nov 2026, 11:00 UTC.</sub>
 <!-- LIVE_PROJECTS_END -->
 
 ---
