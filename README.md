@@ -48,12 +48,21 @@ const mildfriend = {
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/mildfriend3-blip/tatkal-companion">tatkal-companion</a></h3>
+      <p>Local tatkal booking co-pilot for Indian Railways: window timings, reminder plan, readiness checklist, second-by-second pacing and PNR tracking. No IRCTC automation.</p>
+      <p><img alt="Python" src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41" /></p>
+      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/tatkal-companion?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/tatkal-companion?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/tatkal-companion?style=flat-square&color=10B981&labelColor=0d1117" /></p>
+      <p><a href="https://github.com/mildfriend3-blip/tatkal-companion"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
+    </td>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/aegis">aegis</a></h3>
       <p>Evaluation-and-defense framework for prompt-injection attacks on tool-using LLM agents. Measures attack success rate and legitimate utility across four defense layers.</p>
       <p><img alt="Python" src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41" /> <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-0d1117?style=flat-square&logo=powershell&logoColor=00FF41" /> <img alt="Make" src="https://img.shields.io/badge/Make-0d1117?style=flat-square&logo=gnu&logoColor=00FF41" /></p>
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/aegis?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/aegis?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/aegis?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://github.com/mildfriend3-blip/aegis"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/exampulse-antigravity">exampulse-antigravity</a></h3>
       <p>Futuristic, High-Performance Examination Powerhouse for University Engineering Students.</p>
@@ -61,8 +70,6 @@ const mildfriend = {
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://exampulseantigravity.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/cu-jammu-attendance">cu-jammu-attendance</a></h3>
       <p>Unofficial timetable + attendance tracker for B.Tech Cyber Security (Semester I), Dept. of CSE &amp; CSIT, Cluster University of Jammu. React + TypeScript + Vite.</p>
@@ -70,6 +77,8 @@ const mildfriend = {
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://cu-jammu-attendance.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/cu-jammu-attendance"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/ztag-gateway">ztag-gateway</a></h3>
       <p>Distributed Zero-Trust Access Gateway — Go data plane proxy with JWT + device binding, Redis revocation and sliding-window rate limiting, OPA policy decisions, and an async audit pipeline (4th year capstone).</p>
@@ -77,8 +86,6 @@ const mildfriend = {
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/ztag-gateway?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/ztag-gateway?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/ztag-gateway?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://mildfriend3-blip.github.io/ztag-gateway/"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/ztag-gateway"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/ai-govdocs-agent">ai-govdocs-agent</a></h3>
       <p>Human-in-the-loop AI agent that prepares Indian government-document applications (PAN, Voter ID, Driving Licence) and hands OTP/DigiLocker auth back to the applicant.</p>
@@ -86,15 +93,10 @@ const mildfriend = {
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/ai-govdocs-agent?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/ai-govdocs-agent?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/ai-govdocs-agent?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://github.com/mildfriend3-blip/ai-govdocs-agent"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mildfriend3-blip?tab=repositories">All repositories</a></h3>
-      <p>The full list, including the ones this showcase hides: archived, dormant, and repositories without a description.</p>
-      <p><a href="https://github.com/mildfriend3-blip?tab=repositories"><img alt="all repositories" src="https://img.shields.io/badge/Browse_All-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117" /></a></p>
-    </td>
   </tr>
 </table>
 
-<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 08 Nov 2026, 10:27 UTC.</sub>
+<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 09 Nov 2026, 11:38 UTC.</sub>
 <!-- LIVE_PROJECTS_END -->
 
 ---
