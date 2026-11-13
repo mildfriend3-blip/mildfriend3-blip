@@ -64,27 +64,27 @@ const mildfriend = {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/mildfriend3-blip/exampulse-antigravity">exampulse-antigravity</a></h3>
-      <p>Futuristic, High-Performance Examination Powerhouse for University Engineering Students.</p>
-      <p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41" /> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0d1117?style=flat-square&logo=kotlin&logoColor=00FF41" /></p>
-      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=10B981&labelColor=0d1117" /></p>
-      <p><a href="https://exampulseantigravity.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/cu-jammu-attendance">cu-jammu-attendance</a></h3>
       <p>Unofficial timetable + attendance tracker for B.Tech Cyber Security (Semester I), Dept. of CSE &amp; CSIT, Cluster University of Jammu. React + TypeScript + Vite.</p>
       <p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41" /> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41" /> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /></p>
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://cu-jammu-attendance.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/cu-jammu-attendance"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/ztag-gateway">ztag-gateway</a></h3>
       <p>Distributed Zero-Trust Access Gateway — Go data plane proxy with JWT + device binding, Redis revocation and sliding-window rate limiting, OPA policy decisions, and an async audit pipeline (4th year capstone).</p>
       <p><img alt="Go" src="https://img.shields.io/badge/Go-0d1117?style=flat-square&logo=go&logoColor=00FF41" /> <img alt="Shell" src="https://img.shields.io/badge/Shell-0d1117?style=flat-square&logo=gnubash&logoColor=00FF41" /> <img alt="OPA" src="https://img.shields.io/badge/OPA-0d1117?style=flat-square&logo=openpolicyagent&logoColor=00FF41" /></p>
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/ztag-gateway?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/ztag-gateway?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/ztag-gateway?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://mildfriend3-blip.github.io/ztag-gateway/"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/ztag-gateway"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/mildfriend3-blip/exampulse-antigravity">exampulse-antigravity</a></h3>
+      <p>Futuristic, High-Performance Examination Powerhouse for University Engineering Students.</p>
+      <p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41" /> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0d1117?style=flat-square&logo=kotlin&logoColor=00FF41" /></p>
+      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=10B981&labelColor=0d1117" /></p>
+      <p><a href="https://exampulseantigravity.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/ai-govdocs-agent">ai-govdocs-agent</a></h3>
@@ -96,7 +96,7 @@ const mildfriend = {
   </tr>
 </table>
 
-<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 12 Nov 2026, 11:20 UTC.</sub>
+<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 13 Nov 2026, 11:04 UTC.</sub>
 <!-- LIVE_PROJECTS_END -->
 
 ---
