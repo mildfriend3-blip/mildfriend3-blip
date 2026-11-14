@@ -96,7 +96,7 @@ const mildfriend = {
   </tr>
 </table>
 
-<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 13 Nov 2026, 11:04 UTC.</sub>
+<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 14 Nov 2026, 10:31 UTC.</sub>
 <!-- LIVE_PROJECTS_END -->
 
 ---
@@ -137,12 +137,12 @@ const mildfriend = {
 
 <!-- LIVE_LANGS_START -->
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-58.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Go" src="https://img.shields.io/badge/Go-17.6%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-11.3%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-5.7%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-2.8%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Shell" src="https://img.shields.io/badge/Shell-1.2%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-55.2%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Go" src="https://img.shields.io/badge/Go-16.6%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-10.7%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-8.2%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-5.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-1.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
 </p>
 <!-- LIVE_LANGS_END -->
 
