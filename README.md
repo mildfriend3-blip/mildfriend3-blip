@@ -64,27 +64,27 @@ const mildfriend = {
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/mildfriend3-blip/redactthenask">redactthenask</a></h3>
+      <p>Ask anything about a sensitive document. Leak nothing. A privacy firewall for AI built on Firebase AI Logic hybrid inference: Gemini Nano redacts on device, cloud Gemini reasons over the sanitised text, names restored locally.</p>
+      <p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41" /> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41" /></p>
+      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/redactthenask?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/redactthenask?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/redactthenask?style=flat-square&color=10B981&labelColor=0d1117" /></p>
+      <p><a href="https://github.com/mildfriend3-blip/redactthenask"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
+    </td>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/cu-jammu-attendance">cu-jammu-attendance</a></h3>
       <p>Unofficial timetable + attendance tracker for B.Tech Cyber Security (Semester I), Dept. of CSE &amp; CSIT, Cluster University of Jammu. React + TypeScript + Vite.</p>
       <p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41" /> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41" /> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /></p>
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/cu-jammu-attendance?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://cu-jammu-attendance.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/cu-jammu-attendance"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/ztag-gateway">ztag-gateway</a></h3>
       <p>Distributed Zero-Trust Access Gateway — Go data plane proxy with JWT + device binding, Redis revocation and sliding-window rate limiting, OPA policy decisions, and an async audit pipeline (4th year capstone).</p>
       <p><img alt="Go" src="https://img.shields.io/badge/Go-0d1117?style=flat-square&logo=go&logoColor=00FF41" /> <img alt="Shell" src="https://img.shields.io/badge/Shell-0d1117?style=flat-square&logo=gnubash&logoColor=00FF41" /> <img alt="OPA" src="https://img.shields.io/badge/OPA-0d1117?style=flat-square&logo=openpolicyagent&logoColor=00FF41" /></p>
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/ztag-gateway?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/ztag-gateway?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/ztag-gateway?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://mildfriend3-blip.github.io/ztag-gateway/"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/ztag-gateway"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mildfriend3-blip/redactthenask">redactthenask</a></h3>
-      <p>Ask anything about a sensitive document. Leak nothing. A privacy firewall for AI built on Firebase AI Logic hybrid inference: Gemini Nano redacts on device, cloud Gemini reasons over the sanitised text, names restored locally.</p>
-      <p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41" /> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41" /></p>
-      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/redactthenask?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/redactthenask?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/redactthenask?style=flat-square&color=10B981&labelColor=0d1117" /></p>
-      <p><a href="https://github.com/mildfriend3-blip/redactthenask"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/exampulse-antigravity">exampulse-antigravity</a></h3>
@@ -96,7 +96,7 @@ const mildfriend = {
   </tr>
 </table>
 
-<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 18 Nov 2026, 11:49 UTC.</sub>
+<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 19 Nov 2026, 11:45 UTC.</sub>
 <!-- LIVE_PROJECTS_END -->
 
 ---
@@ -137,11 +137,11 @@ const mildfriend = {
 
 <!-- LIVE_LANGS_START -->
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-41.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-22.8%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Go" src="https://img.shields.io/badge/Go-16.5%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-10.6%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-5.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-40.8%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-23.9%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Go" src="https://img.shields.io/badge/Go-16.3%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-10.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-5.3%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
   <img alt="Shell" src="https://img.shields.io/badge/Shell-1.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
 </p>
 <!-- LIVE_LANGS_END -->
