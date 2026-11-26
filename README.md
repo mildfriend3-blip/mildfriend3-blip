@@ -80,23 +80,23 @@ const mildfriend = {
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/mildfriend3-blip/cuj-ctf-arena">cuj-ctf-arena</a></h3>
+      <p>CUJ CyberOps CTF 2026 — Full-stack Capture The Flag competition platform for Central University of Jammu</p>
+      <p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00FF41" /> <img alt="Python" src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00FF41" /> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41" /></p>
+      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/cuj-ctf-arena?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/cuj-ctf-arena?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/cuj-ctf-arena?style=flat-square&color=10B981&labelColor=0d1117" /></p>
+      <p><a href="https://cuj-ctf-arena.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/cuj-ctf-arena"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
+    </td>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/mildfriend3-blip/Pramaan">Pramaan</a></h3>
       <p>National Digital Forensic Evidence Chain &amp; Remote Scene Supervision System (BNSS §176(3) &amp; BSA §63)</p>
       <p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41" /> <img alt="CSS3" src="https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=00FF41" /></p>
       <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/Pramaan?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/Pramaan?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/Pramaan?style=flat-square&color=10B981&labelColor=0d1117" /></p>
       <p><a href="https://github.com/mildfriend3-blip/Pramaan"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mildfriend3-blip/exampulse-antigravity">exampulse-antigravity</a></h3>
-      <p>Futuristic, High-Performance Examination Powerhouse for University Engineering Students.</p>
-      <p><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00FF41" /> <img alt="HTML5" src="https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00FF41" /> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0d1117?style=flat-square&logo=kotlin&logoColor=00FF41" /></p>
-      <p><img alt="last commit" src="https://img.shields.io/github/last-commit/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=00FF41&labelColor=0d1117&label=Last%20Commit" /> <img alt="commit activity" src="https://img.shields.io/github/commit-activity/m/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=2ea043&labelColor=0d1117&label=Commits" /> <img alt="stars" src="https://img.shields.io/github/stars/mildfriend3-blip/exampulse-antigravity?style=flat-square&color=10B981&labelColor=0d1117" /></p>
-      <p><a href="https://exampulseantigravity.vercel.app"><img alt="live demo" src="https://img.shields.io/badge/Live_Demo-00FF41?style=for-the-badge&logo=vercel&logoColor=0d1117&labelColor=00FF41&color=00FF41" /></a> <a href="https://github.com/mildfriend3-blip/exampulse-antigravity"><img alt="source code" src="https://img.shields.io/badge/Source_Code-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117&color=2ea043" /></a></p>
-    </td>
   </tr>
 </table>
 
-<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 25 Nov 2026, 13:00 UTC.</sub>
+<sub>Ranked by commits in the last 30 days, then 90 days, then recency. Last rebuilt 26 Nov 2026, 12:41 UTC.</sub>
 <!-- LIVE_PROJECTS_END -->
 
 ---
@@ -137,11 +137,11 @@ const mildfriend = {
 
 <!-- LIVE_LANGS_START -->
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-41.8%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-36.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-10.7%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-5.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
-  <img alt="Go" src="https://img.shields.io/badge/Go-4.8%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-34.2%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-27.9%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-26.9%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-5.1%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
+  <img alt="Go" src="https://img.shields.io/badge/Go-4.5%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
   <img alt="Shell" src="https://img.shields.io/badge/Shell-0.4%25-00FF41?style=for-the-badge&labelColor=0d1117&color=2ea043" />
 </p>
 <!-- LIVE_LANGS_END -->
